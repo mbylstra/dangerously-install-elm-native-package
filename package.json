@@ -1,0 +1,25 @@
+{
+  "name": "dangerously-install-native-elm-package",
+  "version": "1.0.0",
+  "description": "Dangerously install elm packages containing 'native' javascript code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Bylstra",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dashdash": "^1.14.0",
+    "fs-promise": "^0.5.0",
+    "nodegit": "^0.14.1",
+    "request-promise": "^4.0.2",
+    "untildify": "^3.0.2"
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "dangerously-install-install-native-elm-package" : "main.js"
+  }
+}
